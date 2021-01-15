@@ -321,16 +321,6 @@ PROCESS {
             Else { Write-Warning ("No LanManWorkstation Settings found") }
         }
         Else { Write-Warning ("File not found: {0}\ConfigurationFiles\LanManWorkstation.json" -f $WorkingLocation) }
-
-        # NIC Advanced Properties performance settings for network biased environments
-        Write-Verbose "Configuring Network Adapter Buffer Size"
-        Set-NetAdapterAdvancedProperty -DisplayName "Send Buffer Size" -DisplayValue 4MB
-
-        <#  NOTE:
-            Note that the above setting is for a Microsoft Hyper-V VM.  You can adjust these values in your environment...
-            by querying in PowerShell using Get-NetAdapterAdvancedProperty, and then adjusting values using the...
-            Set-NetAdapterAdvancedProperty command.
-        #>
     }
     #endregion
 
