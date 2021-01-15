@@ -46,12 +46,6 @@
     "Description": "Connected User Experiences and Telemetry service, manages the event driven collection and transmission of diagnostic and usage information (used to improve the experience and quality of the Windows Platform) when the diagnostics and usage privacy option settings are enabled under Feedback and Diagnostics."
   },
   {
-    "Name": "DPS",
-    "VDIState": "Disabled",
-    "URL": "https://docs.microsoft.com/en-us/uwp/api/Windows.System.Diagnostics?view=winrt-19041",
-    "Description": "The Diagnostic Policy Service enables problem detection, troubleshooting and resolution for Windows components. If this service is stopped, diagnostics will no longer function."
-  },
-  {
     "Name": "DusmSvc",
     "VDIState": "Disabled",
     "URL": "https://docs.microsoft.com/en-us/uwp/schemas/mobilebroadbandschema/dusm/schema-root",
